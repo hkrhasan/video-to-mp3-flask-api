@@ -1,0 +1,18 @@
+# Python virtual environments
+**/venv/
+
+# Compiled Python files
+**/*.pyc
+
+# Ignore Docker build artifacts
+**/*.log
+**/*.tar
+**/*.gz
+
+# Ignore any local or environment-specific files
+**/.env
+
+# Ignore video files
+**/*.mkv
+
+.DS_Store

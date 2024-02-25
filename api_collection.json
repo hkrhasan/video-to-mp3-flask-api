@@ -1,0 +1,83 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "video-to-auido",
+    "dateExported": "2024-02-25T14:32:41.998Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a3790adf-68a2-4cf5-921e-de465991e349",
+            "colId": "03b65e49-7751-4eaa-92e2-5621363c586c",
+            "containerId": "",
+            "name": "download video",
+            "url": "http://mp3converter.com/download?fid=65db46763e04e37a62c94722",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-25T14:27:35.803Z",
+            "modified": "2024-02-25T14:27:35.803Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "fid",
+                    "value": "65db46763e04e37a62c94722",
+                    "isPath": false
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imhrcmhhc2FuODAxMEBnbWFpbC5jb20iLCJleHAiOjE3MDg5MjIxMTgsImlhdCI6MTcwODgzNTcxOCwiYWRtaW4iOnRydWV9.DhrD1L9fmZjiSbqOdmcy8vhRcj9VGJl9XWYG_BW_C7k"
+            },
+            "tests": []
+        },
+        {
+            "_id": "9beac16f-78e7-4b3c-8cdb-5062cb94268b",
+            "colId": "03b65e49-7751-4eaa-92e2-5621363c586c",
+            "containerId": "",
+            "name": "upload video",
+            "url": "http://mp3converter.com/upload",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-25T14:27:57.610Z",
+            "modified": "2024-02-25T14:27:57.610Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [],
+                "files": [
+                    {
+                        "name": "files",
+                        "value": "/Users/hkrhasan/development/systems/ms-architecture/python/src/testing_videos/test2.mkv"
+                    }
+                ]
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imhrcmhhc2FuODAxMEBnbWFpbC5jb20iLCJleHAiOjE3MDg5MjIxMTgsImlhdCI6MTcwODgzNTcxOCwiYWRtaW4iOnRydWV9.DhrD1L9fmZjiSbqOdmcy8vhRcj9VGJl9XWYG_BW_C7k"
+            },
+            "tests": []
+        },
+        {
+            "_id": "c987a833-290e-4c22-9024-5d08db3fa6d8",
+            "colId": "03b65e49-7751-4eaa-92e2-5621363c586c",
+            "containerId": "",
+            "name": "login",
+            "url": "http://mp3converter.com/login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-02-25T14:32:03.670Z",
+            "modified": "2024-02-25T14:32:03.670Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "basic",
+                "basic": {
+                    "username": "example@gmail.com",
+                    "password": "P@ssw0rd"
+                }
+            },
+            "tests": []
+        }
+    ]
+}
